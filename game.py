@@ -3,9 +3,9 @@ data = input_data.read ()
 
 data = data.split()
 a = int(data[0])
-b = 9
-c = (b-a)
-d = (a*100 + b*10 + c)
+b = int(9)
+c = int(b-a)
+d = str(a*100 + b*10 + c)
 
 output_data = open ('output.txt', 'w')
 output_data.write(d)
